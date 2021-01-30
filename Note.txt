@@ -1,0 +1,10 @@
+library khusus untuk metode collaborative filtering  : http://surpriselib.com/
+Dataset Consumer Reviews of Amazon Products : https://www.kaggle.com/ di unduh di : https://www.kaggle.com/jealousleopard/goodreadsbooks
+Evaluasi dilakukan untuk mengetahui peforma akurasi dan error yang terjadi dengan metode evaluasi : RMSE, MAE, dan FCP
+contoh rekomendasi : https://github.com/novindrap07/recom_system/blob/master/collaborative_filtering.ipynb
+
+dalam algoritma rekomendasi dengan metode collaborative filtering dengan 2 permodelan 
+yaitu nearest neighbors dan matrix factorization, kelebihan tiap model dipelajari dan dipahami.
+
+Secara sederhana, cara kerja sistem rekomendasi ini terbagi dari 2 mekanisme. Yang pertama, sistem merekomendasikan barang atau film kepada pengguna berdasarkan barang yang pernah ia gunakan atau beli sebelumnya. Implementasi sistem ini yaitu dengan menggunakan weighted rating atau matrix factorization. Yang kedua, sistem merekomendasikan barang berdasarkan kemiripan terhadap barang lainnya seperti kemiripan tipe barang. Penerapan tipe ini dapat dilakukan dengan menggunakan similarity function. Namun sistem rekomendasi sederhana tersebut memiliki beberapa kelemahan, salah satunya adalah kondisi saat pengguna belum pernah melakukan pembelian barang sama sekali atau disebut cold-start.
+
